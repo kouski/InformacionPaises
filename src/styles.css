@@ -2,3 +2,26 @@
 .list-group-item {
   cursor: pointer;
 }
+
+body{
+  background-image: url(./assets/images/mapa-mundi.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.form-control:focus {
+  border-color: #111112;
+  box-shadow: none;
+}
+
+.idioma{
+  font-size: x-small;
+}
+
+.tabla{
+  cursor:auto;
+}
+
+
+
