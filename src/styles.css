@@ -3,8 +3,8 @@
   cursor: pointer;
 }
 
-body{
-  background-image: url(./assets/images/mapa-mundi.avif);
+ body{
+  background-image: url(./assets/images/mapa-mundi.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
