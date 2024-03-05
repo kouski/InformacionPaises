@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.list-group-item {
+  cursor: pointer;
+}
+
+ body{
+  background-image: url(./assets/images/mapa-mundi.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.form-control:focus {
+  border-color: #111112;
+  box-shadow: none;
+}
+
+.idioma{
+  font-size: x-small;
+}
+
+.tabla{
+  cursor:auto;
+}
+
+
+

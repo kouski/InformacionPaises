@@ -1,0 +1,23 @@
+<h3 class="text-center">Búsqueda por región</h3>
+<hr />
+
+<div class="row">
+  <div class="col text-center">
+    <!-- searchbox -->
+    <button
+      *ngFor="let region of regions"
+      [ngClass]="{'btn-outline-secondary': selectedRegion === region}"
+      class="btn mx-2 mb-2"
+      (click)="searchRegion(region)"
+    >
+      {{ region }}
+    </button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col">
+    <shared-loadingspinner *ngIf="isLoading"></shared-loadingspinner>
+    <country-table [countries]="countries"></country-table>
+  </div>
+</div>
